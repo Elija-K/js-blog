@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Terminal</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on Terminal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 11 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog Post</title>
+      <link>/posts/why-docker/</link>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/why-docker/</guid>
+      <description>&lt;p&gt;I needed to install many Docker Things for a Customer, well i did&amp;hellip; Good Actually BUT i dont want to use Docker anymore xD but i need to do some things again.&lt;/p&gt;
+&lt;h2 id=&#34;what-did-i-actually-do&#34;&gt;What did i actually do?&lt;/h2&gt;
+&lt;p&gt;Well i needed to install Things like Authentik, Collabora, and some other things. The Problem was i was thrown in the Cold Lake without any Experience how xD&lt;/p&gt;
+&lt;p&gt;Well now i know how to do it, first just search for Tutorials AND READ THEM
+thats how i was doing!&lt;/p&gt;</description>
+      <content>&lt;p&gt;I needed to install many Docker Things for a Customer, well i did&amp;hellip; Good Actually BUT i dont want to use Docker anymore xD but i need to do some things again.&lt;/p&gt;
+&lt;h2 id=&#34;what-did-i-actually-do&#34;&gt;What did i actually do?&lt;/h2&gt;
+&lt;p&gt;Well i needed to install Things like Authentik, Collabora, and some other things. The Problem was i was thrown in the Cold Lake without any Experience how xD&lt;/p&gt;
+&lt;p&gt;Well now i know how to do it, first just search for Tutorials AND READ THEM
+thats how i was doing!&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Starting my Own Blog</title>
+      <link>/posts/start-blogging-wohoo/</link>
+      <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/start-blogging-wohoo/</guid>
+      <description>&lt;p&gt;Im Starting a Blog where i just post some Tech &amp;ldquo;Tutorials&amp;rdquo; (its not Really Tutorials but just the way that was i doing it) and some things about my Life (Like my Hackerspace and this Things). Im Starting with this here and here i explain how  i do it (With a Tutorial-Like Thing)&lt;/p&gt;
+&lt;h2 id=&#34;how-i-write-it&#34;&gt;How i write it?&lt;/h2&gt;
+&lt;p&gt;I write it in Obsidian, Obisidian is a Markdown Editor and it has cool Features but the Main Reason i use it, is because it shows me the Hashtags with the Right Format (and a Friend told me to use so i tested it and it was good)&lt;/p&gt;</description>
+      <content>&lt;p&gt;Im Starting a Blog where i just post some Tech &amp;ldquo;Tutorials&amp;rdquo; (its not Really Tutorials but just the way that was i doing it) and some things about my Life (Like my Hackerspace and this Things). Im Starting with this here and here i explain how  i do it (With a Tutorial-Like Thing)&lt;/p&gt;
+&lt;h2 id=&#34;how-i-write-it&#34;&gt;How i write it?&lt;/h2&gt;
+&lt;p&gt;I write it in Obsidian, Obisidian is a Markdown Editor and it has cool Features but the Main Reason i use it, is because it shows me the Hashtags with the Right Format (and a Friend told me to use so i tested it and it was good)&lt;/p&gt;
+&lt;h2 id=&#34;how-i-transform-it-to-a-to-a-blog&#34;&gt;How i Transform it to a to a Blog?&lt;/h2&gt;
+&lt;p&gt;I use a Script (from NetworkChuck) so it Transform from Markdown to a Website with Go and Python&lt;/p&gt;
+&lt;h2 id=&#34;why&#34;&gt;Why?&lt;/h2&gt;
+&lt;p&gt;&amp;ldquo;To have a Second Brain&amp;rdquo; and to share to the world what i am Learning&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
