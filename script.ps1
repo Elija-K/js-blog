@@ -5,7 +5,7 @@ $sourcePath = "C:\Users\someone\Nextcloud4\Blog"
 $destinationPath = "C:\Users\someone\Nextcloud4\js-blog\content\posts"
 
 # Set Github repo 
-$myrepo = "reponame"
+$myrepo = ""
 
 # Set error handling
 $ErrorActionPreference = "Stop"
@@ -117,7 +117,7 @@ if (-not $hasStagedChanges) {
 # Step 7: Push all changes to the main branch
 Write-Host "Deploying to GitHub Master..."
 try {
-    git push origin master
+    git push origin main
 } catch {
     Write-Error "Failed to push to Master branch."
     exit 1
