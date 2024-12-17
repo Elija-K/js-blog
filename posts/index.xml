@@ -6,7 +6,30 @@
     <description>Recent content in Posts on Terminal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Now an entire Network</title>
+      <link>/posts/now-an-entire-network/</link>
+      <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/now-an-entire-network/</guid>
+      <description>&lt;h2 id=&#34;now-im-the-boss&#34;&gt;Now im the Boss&lt;/h2&gt;
+&lt;p&gt;Ok the Title is a little Rough but its True, im the Boss of the entire Network and Server from my Hackerspace&lt;/p&gt;
+&lt;h2 id=&#34;and-now&#34;&gt;And now?&lt;/h2&gt;
+&lt;p&gt;Now i do a Meeting so we can Start with our Site that we are working on&lt;/p&gt;
+&lt;h2 id=&#34;how-it-come-so&#34;&gt;How it come so?&lt;/h2&gt;
+&lt;p&gt;It comes so that i was not Happy with the last Manager and i reported them and then there was a really big Thing about it and now i am the Manager&lt;/p&gt;</description>
+      <content>&lt;h2 id=&#34;now-im-the-boss&#34;&gt;Now im the Boss&lt;/h2&gt;
+&lt;p&gt;Ok the Title is a little Rough but its True, im the Boss of the entire Network and Server from my Hackerspace&lt;/p&gt;
+&lt;h2 id=&#34;and-now&#34;&gt;And now?&lt;/h2&gt;
+&lt;p&gt;Now i do a Meeting so we can Start with our Site that we are working on&lt;/p&gt;
+&lt;h2 id=&#34;how-it-come-so&#34;&gt;How it come so?&lt;/h2&gt;
+&lt;p&gt;It comes so that i was not Happy with the last Manager and i reported them and then there was a really big Thing about it and now i am the Manager&lt;/p&gt;
+&lt;h2 id=&#34;what-do-you-do-after-the-meeting&#34;&gt;What do you do after the Meeting?&lt;/h2&gt;
+&lt;p&gt;After the Meeting im Starting with my Tasks because im mainly for the Network here and so im do a little Cleaning with VPN etc. and then well see + im making a Failoversystem but it should go becuase the Failover start only then when it should&lt;/p&gt;
+</content>
+    </item>
+    
     <item>
       <title>WHY DOCKER</title>
       <link>/posts/why-docker/</link>
