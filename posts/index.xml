@@ -8,6 +8,70 @@
     <language>en</language>
     <lastBuildDate>Tue, 24 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Jellyfin is really the Best</title>
+      <link>/posts/jellyfin-is-really-the-best/</link>
+      <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/jellyfin-is-really-the-best/</guid>
+      <description>&lt;h1 id=&#34;im--using-jellyfin&#34;&gt;Im  using Jellyfin&lt;/h1&gt;
+&lt;p&gt;So im using Jellyfin now for a long Time with Jellyseerr, but i now wanted to Tell my Experience with Jellyfin and the Other Services with Jellyfin.&lt;/p&gt;
+&lt;h1 id=&#34;how-to-install&#34;&gt;How to install&lt;/h1&gt;
+&lt;p&gt;First of all, how to install it because thats the Point of my Blog, to tell how i do it.&lt;/p&gt;
+&lt;h2 id=&#34;backend&#34;&gt;Backend&lt;/h2&gt;
+&lt;p&gt;Before you can do the Frontend you need the Backend (You see later why) So first we install some Tools, the Tools that we need are: Jackett, Radarr, Sonarr and Transmission. Before we install it i want to give a Disclaimer becuase Yes it is Piracy but in my Country its Legal so please first look if its Legal in your Country.&lt;/p&gt;</description>
+      <content>&lt;h1 id=&#34;im--using-jellyfin&#34;&gt;Im  using Jellyfin&lt;/h1&gt;
+&lt;p&gt;So im using Jellyfin now for a long Time with Jellyseerr, but i now wanted to Tell my Experience with Jellyfin and the Other Services with Jellyfin.&lt;/p&gt;
+&lt;h1 id=&#34;how-to-install&#34;&gt;How to install&lt;/h1&gt;
+&lt;p&gt;First of all, how to install it because thats the Point of my Blog, to tell how i do it.&lt;/p&gt;
+&lt;h2 id=&#34;backend&#34;&gt;Backend&lt;/h2&gt;
+&lt;p&gt;Before you can do the Frontend you need the Backend (You see later why) So first we install some Tools, the Tools that we need are: Jackett, Radarr, Sonarr and Transmission. Before we install it i want to give a Disclaimer becuase Yes it is Piracy but in my Country its Legal so please first look if its Legal in your Country.&lt;/p&gt;
+&lt;h3 id=&#34;casaos&#34;&gt;CasaOS&lt;/h3&gt;
+&lt;p&gt;So now lets install it, i use CasaOS for the Docker UI so its easier, when you install CasaOS on a Proxmox Server like me then i can recommend this website to you: helper-scripts.com There are some good scripts, but if you gonna install it Bare Metal then you need to Install Debian (12 i recommend) and then use the Script &amp;ldquo;curl -fsSL &lt;a href=&#34;https://get.casaos.io&#34;&gt;https://get.casaos.io&lt;/a&gt; | sudo bash&amp;rdquo; but i dont know the Procedure for Bare Metal.&lt;/p&gt;
+&lt;p&gt;After you installed CasaOS you need to first configure. Just Type the Username, Password and the Password again and then you Good to go. Then you need to first Update the CasaOS, for this you need to go on the Second Icon left in the Navbar and then Update. In The App Store we need to add a Repo for the Jellyfin App so we go to the App Store -&amp;gt; More Apps -&amp;gt; Paste &amp;ldquo;&lt;a href=&#34;https://github.com/bigbeartechworld/big-bear-casaos/archive/refs/heads/master.zip%22&#34;&gt;https://github.com/bigbeartechworld/big-bear-casaos/archive/refs/heads/master.zip&#34;&lt;/a&gt; -&amp;gt; Add -&amp;gt; You now Ready to Start&lt;/p&gt;
+&lt;h3 id=&#34;jackett-and-transmission&#34;&gt;Jackett and Transmission&lt;/h3&gt;
+&lt;p&gt;First we install Transmission and Jackett, thats so easy, i think you should do it by yourself. After you finish installing it, you go in CasaOS to Transmission and on the Three Dots and then Settings. Unter Volumes you do it like me:
+![[Pasted image 20241224131200.png]]
+Every Folder is already there so you dont need to manually add them, save it and then we go in to Jackett&lt;/p&gt;
+&lt;h4 id=&#34;configure-jackett&#34;&gt;Configure Jackett&lt;/h4&gt;
+&lt;p&gt;Just Ignore the Warning with the Old version, as long you dont Publish it, its safe enough. We need a Indexer so we go to Add Indexer and Search for a Good Indexer, i recommend Pirate Bay but its up to you what you use. After you selected it you can use add Selected and we are done with Jackett and Transmission&lt;/p&gt;
+&lt;h4 id=&#34;configure-transmission-optional&#34;&gt;Configure Transmission (Optional)&lt;/h4&gt;
+&lt;p&gt;If you want to really sure that you dont do anything Illegal with republish things you go in your Transmission (Password and User are casaos) and then on the Burger in the upper right, there you go in Speed and there you set your Upload to Zero.&lt;/p&gt;
+&lt;h3 id=&#34;sonarr-and-radarr&#34;&gt;Sonarr and Radarr&lt;/h3&gt;
+&lt;p&gt;to Install these in your CasaOS you just do the Same thing like with Jackett and Transmission. Then we go again in the Settings from Sonarr and Radarr to set the Tag to latest and Save.&lt;/p&gt;
+&lt;h4 id=&#34;configure-sonarr&#34;&gt;Configure Sonarr&lt;/h4&gt;
+&lt;p&gt;We gonna Start with Sonarr, just open it and then you can do the Authentication like you want. After that go to the Settings -&amp;gt; Profiles and Delete every Profile you dont need, i recomment HD-720p or HD-1080p (but if you want you can delete all of them and add a new one)&lt;/p&gt;
+&lt;p&gt;Next we gonna go to Indexers and add a new one -&amp;gt; Torznab and then do it like me:
+![[Pasted image 20241224132721.png]]
+Save it and go to Download Clients -&amp;gt; Add a new one with Transmission and then again like me:
+![[Pasted image 20241224132925.png]]
+Then we are gonna go to Media Management and add a Root Folder with the path &amp;ldquo;tv&amp;rdquo;
+Save and we are Finished with Sonarr FOR NOW&lt;/p&gt;
+&lt;h4 id=&#34;configure-radarr&#34;&gt;Configure Radarr&lt;/h4&gt;
+&lt;p&gt;Same Thing like Sonarr
+Settings -&amp;gt; Profiles
+Settings -&amp;gt; Indexers
+Settings -&amp;gt; Download Clients
+Settings -&amp;gt; Media Management (But with Movies)&lt;/p&gt;
+&lt;h2 id=&#34;frontend&#34;&gt;Frontend&lt;/h2&gt;
+&lt;h3 id=&#34;jellyfin&#34;&gt;Jellyfin&lt;/h3&gt;
+&lt;p&gt;WOHOO we are going to the Frontend now. But first we need to Install Jellyfin, the actual Thing we are gonna Watch on it. Installation is like everything else. Again in the Settings we need to change the Tag to latest and Save. Go through the wizard like you want until the Media Library, add Movie with the Path /Media/Movies and Serie with the Path /Media/TV Shows then just go through. When you Finished then we are Finished with Jellyfin.&lt;/p&gt;
+&lt;h3 id=&#34;jellyseerr&#34;&gt;Jellyseerr&lt;/h3&gt;
+&lt;p&gt;And Last but not Least we are gonna put everything together with Jellyseerr. Again Install it and then set the Tag to latest. Then Open it and do it like i did.&lt;/p&gt;
+&lt;p&gt;Click &amp;ldquo;Configure Jellyfin&amp;rdquo; -&amp;gt; Type in
+&amp;quot;
+Jellyfin URL (Internal IP with Port (mostly 8097))
+E-Mailadress (it must not Assosciated with Jellyfin)
+Username (from the Admin Jellyfin)
+Password
+&amp;quot; -&amp;gt; Sign In -&amp;gt; Click &amp;ldquo;Sync Libraries&amp;rdquo; and add every Library -&amp;gt; Continue -&amp;gt; Add a Radarr and Sonarr Server and set them to Default Server (You find the API Key under Settings -&amp;gt; General -&amp;gt; API Key) -&amp;gt; Finish the Setup and you can now Request and automatically Download them&lt;/p&gt;
+&lt;h1 id=&#34;my-experience&#34;&gt;My Experience&lt;/h1&gt;
+&lt;p&gt;I Think its a really good Platform for everything that you need when you just want to Watch Movies and Series and with Jellyseer you can automatically Download Movies and Series and so its just Perfect for what i need it and i can give Friend a Account and they can just watch also my Movies and if you do it Right you can add a OAuth.&lt;/p&gt;
+&lt;h1 id=&#34;official-disclaimer&#34;&gt;Official Disclaimer&lt;/h1&gt;
+&lt;p&gt;Everything that you do is on your own risk, in my Country its Legal to Download Movies and Series so before you do it, look first if its Ok or not and i dont take any Responsibility for your Actions.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
       <title>Now an entire Network</title>
       <link>/posts/now-an-entire-network/</link>
       <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
